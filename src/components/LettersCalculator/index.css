@@ -1,0 +1,92 @@
+/* Write your code here. */
+
+.letters-calculator-bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.letters-main-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .letters-main-card-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.image {
+  width: 400px;
+  height: 300px;
+}
+
+@media screen and (min-width: 992px) {
+  .image {
+    order: 2;
+  }
+}
+
+.calculator-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .calculator-card-container {
+    align-items: center;
+  }
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 36px;
+    font-weight: 800;
+  }
+}
+
+.label-heading {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.search {
+  border-color: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 8px;
+  color: #ffffff;
+  outline: none;
+  background-color: transparent;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.letters-count {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  color: #219a6f;
+}
